@@ -1,0 +1,38 @@
+{
+    "HomePage": {
+        "title": "Triage de Salud Rural con IA",
+        "subtitle": "Asistente de salud accesible para comunidades rurales"
+    },
+    "Disclaimer": {
+        "title": "Aviso Médico",
+        "text": "Este sistema es un asistente de triage impulsado por IA, no es una herramienta de diagnóstico médico. Por favor, consulte a un profesional de la salud calificado para recibir asesoramiento médico, diagnóstico o tratamiento."
+    },
+    "Chatbot": {
+        "welcome": "¡Hola! Estoy aquí para ayudar. ¿Qué síntomas estás experimentando?",
+        "fever": "¿Tienes fiebre?",
+        "cough": "¿Tienes tos?",
+        "fatigue": "¿Te sientes inusualmente cansado o fatigado?",
+        "duration_prompt": "¿Cuántos días has estado experimentando estos síntomas?",
+        "age_prompt": "Por favor, ingresa tu edad:",
+        "gender_prompt": "Por favor, selecciona tu género:",
+        "male": "Masculino",
+        "female": "Femenino",
+        "submit": "Analizar Síntomas",
+        "analyzing": "Analizando...",
+        "yes": "Sí",
+        "no": "No"
+    },
+    "Results": {
+        "title": "Resultados del Triage",
+        "risk_level": "Nivel de Riesgo:",
+        "high": "Alto",
+        "moderate": "Moderado",
+        "low": "Bajo",
+        "emergency": "EMERGENCIA",
+        "possible_conditions": "Condiciones Posibles",
+        "guidance": "Acción Recomendada",
+        "first_aid": "Sugerencias de Primeros Auxilios",
+        "explanation": "¿Por qué este resultado?",
+        "back": "Volver a Empezar"
+    }
+}

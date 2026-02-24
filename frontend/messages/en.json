@@ -1,0 +1,38 @@
+{
+    "HomePage": {
+        "title": "AI Rural Health Triage",
+        "subtitle": "Accessible Health Assistant for Rural Communities"
+    },
+    "Disclaimer": {
+        "title": "Medical Disclaimer",
+        "text": "This system is an AI-powered triage assistant, not a medical diagnosis tool. Please consult a qualified healthcare professional for medical advice, diagnosis, or treatment."
+    },
+    "Chatbot": {
+        "welcome": "Hello! I am here to help. What symptoms are you experiencing?",
+        "fever": "Do you have a fever?",
+        "cough": "Do you have a cough?",
+        "fatigue": "Are you feeling unusually tired or fatigued?",
+        "duration_prompt": "How many days have you been experiencing these symptoms?",
+        "age_prompt": "Please enter your age:",
+        "gender_prompt": "Please select your gender:",
+        "male": "Male",
+        "female": "Female",
+        "submit": "Analyze Symptoms",
+        "analyzing": "Analyzing...",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "Results": {
+        "title": "Triage Results",
+        "risk_level": "Risk Level:",
+        "high": "High",
+        "moderate": "Moderate",
+        "low": "Low",
+        "emergency": "EMERGENCY",
+        "possible_conditions": "Possible Conditions",
+        "guidance": "Recommended Action",
+        "first_aid": "First Aid Suggestions",
+        "explanation": "Why this result?",
+        "back": "Start Over"
+    }
+}

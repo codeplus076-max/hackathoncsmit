@@ -1,0 +1,78 @@
+Product Requirements Document (PRD) AI
+ Multilingual Rural Health Triage Assistant
+1. Product Overview
+An AI-powered multilingual medical triage assistant designed to help rural users understand
+symptoms, assess risk, and decide when to seek medical care. The system does not replace
+doctors but guides users toward appropriate action.
+2. Objectives
+ Predict possible diseases from symptoms
+ Estimate risk level (Low / Moderate / High / Emergency)
+ Provide actionable guidance and first aid
+ Support multilingual chatbot interface
+ Enable rural healthcare accessibility
+3. Target Users
+Primary: Rural population, low health literacy users, non-English speakers.
+Secondary: Community health workers, NGOs, telemedicine platforms.
+4. Core Features
+ Multilingual chatbot symptom intake
+ AI disease prediction (top 3)
+ Risk stratification engine
+ Emergency detection override
+ Action guidance and first aid
+ Explainable AI outputs
+ Confidence visualization
+ Medical disclaimer
+5. System Architecture
+Frontend: Next.js, React, TypeScript, Tailwind.
+Backend: FastAPI, Python, ML model (.pkl).
+Infrastructure: Docker, Vercel (frontend), Render/Railway (backend).
+ML Layer: Disease classifier with probability outputs.
+6. User Flow
+1. User selects language
+2. Chatbot collects symptoms
+3. Backend processes prediction
+4. Risk calculated and emergency checked
+5. Results displayed with guidance
+
+7. Functional Requirements
+Backend: Prediction API, risk engine, emergency detection.
+Frontend: Chat UI, results visualization, language switch.
+ML: Top■3 predictions with confidence scores.
+8. Non■Functional Requirements
+ Response time under 2 seconds
+ Mobile responsive
+ Scalable deployment
+ Secure API design
+9. Dataset Requirements
+ 500 diseases dataset
+ Symptom binary features
+ Age, gender, duration
+ First aid mapping
+Target column: Disease
+10. Risk & Compliance
+Include medical disclaimer: This system is not a medical diagnosis tool. Consult a qualified
+healthcare professional.
+No personal data storage required.
+11. MVP Scope
+Must Have:
+ Chatbot input
+ Disease prediction
+ Risk levels
+ Guidance output
+ Emergency detection
+ Multilingual UI
+12. Milestones
+Phase 1: Backend + ML model
+Phase 2: Frontend integration
+Phase 3: Testing and demo preparation
+13. Success Metrics
+ Prediction accuracy
+ Response speed
+ User comprehension
+ Demo clarity
+
+14. Elevator Pitch
+We built a multilingual AI health triage assistant that helps rural users understand symptoms,
+assess risk, and decide when to seek medical care — enabling early intervention and potentially
+saving lives.
+
